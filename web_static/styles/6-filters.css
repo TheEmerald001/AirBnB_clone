@@ -47,10 +47,16 @@
     width: 100%;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
+    display: none;
 }
 .popover h2 {
     font-size: 16px;
 }
 ul {
     list-style: none;
+}
+/* Locations and amenities popover hover */
+.locations:hover .popover,
+.amenities:hover .popover {
+  display: block;
 }
