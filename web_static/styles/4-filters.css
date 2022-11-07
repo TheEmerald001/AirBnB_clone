@@ -4,8 +4,11 @@
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     background-color: white;
+    display: flex;
+    justify-content: space-between;
 }
 .filter button {
+    position: relative;
     font-size: 20px;
     background-color: #FF5A5F;
     color: #FFFFFF;
@@ -21,4 +24,4 @@
 /* Search button hover opacity */
 .filters button:hover {
     background-color: rgba(255, 90, 95, .9);
-  }
+}
